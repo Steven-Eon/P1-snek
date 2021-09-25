@@ -23,3 +23,13 @@ int Snake::getY()
 {
     return yPos;
 }
+
+void Snake::changeX(int pos)
+{
+    xPos = pos;
+}
+
+void Snake::changeY(int pos)
+{
+    yPos = pos;
+}

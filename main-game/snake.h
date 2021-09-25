@@ -15,6 +15,8 @@ class Snake
         ~Snake();
         int getX();
         int getY();
+        void changeX(int pos);
+        void changeY(int pos);
 
 
 };
