@@ -9,6 +9,10 @@ Fruit::Fruit()
     yPos = rand() % 20;
 }
 
+Fruit::~Fruit()
+{
+}
+
 void Fruit::ChangePos()
 {
     xPos = rand() % 20;
@@ -17,7 +21,7 @@ void Fruit::ChangePos()
 
 void Fruit::LocatePos()
 {
-    cout << "Fruit is located at (" << GetX << ", " << GetY << ")." << endl;
+    cout << "Fruit is located at (" << GetX() << ", " << GetY() << ")." << endl;
 }
 
 int Fruit::GetX()
