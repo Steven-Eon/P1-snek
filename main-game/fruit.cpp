@@ -3,6 +3,11 @@
 
 using namespace std;
 
+Fruit::Fruit()
+{
+    xPos = rand() % 20;
+    yPos = rand() % 20;
+}
 
 void Fruit::ChangePos()
 {
