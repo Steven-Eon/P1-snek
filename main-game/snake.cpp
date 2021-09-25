@@ -1,5 +1,12 @@
 #include <iostream>
-#include <snake.h>
+#include "snake.h"
 
 using namespace std;
 
+Snake::Snake()
+{
+}
+
+Snake::~Snake()
+{
+}

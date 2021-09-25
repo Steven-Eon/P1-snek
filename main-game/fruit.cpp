@@ -1,8 +1,7 @@
 #include <iostream>
-#include <fruit.h>
+#include "fruit.h"
 
 using namespace std;
-
 
 
 void Fruit::ChangePos()
@@ -10,8 +9,6 @@ void Fruit::ChangePos()
     xPos = rand() % 20;
     yPos = rand() % 20;
 }
-
-
 
 void Fruit::LocatePos()
 {

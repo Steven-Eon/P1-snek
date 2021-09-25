@@ -7,16 +7,17 @@ using namespace std;
 class Fruit
 {
     private:
-        Fruit();
-        ~Fruit();
         int xPos, yPos;
 
     public:
+        Fruit();
+        ~Fruit();
         void ChangePos();
         void LocatePos();
         int GetX();
         int GetY();
 };
+
 
 
 #endif
