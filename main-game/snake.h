@@ -11,8 +11,10 @@ class Snake
 
 
     public:
-        Snake();
+        Snake(int intX, int intY);
         ~Snake();
+        int getX();
+        int getY();
 
 
 };
